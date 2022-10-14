@@ -1,0 +1,204 @@
+/*PARAGRAPHE*/
+
+p {
+    text-align: justify;
+}
+
+/*CORPS*/
+
+body {
+    padding: 25px;
+    color: black;
+    font-size: 20px;
+}
+
+/*DARK MODE*/
+
+.dark-mode {
+    background-image: url(../image/imagefond.jpg);
+    width:100%;
+    color: whitesmoke;
+
+}
+
+.light-mode {
+    background-image: url(../image/imagetexturecubique-modified.jpg);
+    width:100%;
+    color: black;
+}
+
+
+.nav-light-mode {
+    width:100%;
+    background-color: #212121;
+    text-decoration-color: whitesmoke;
+}
+
+.nav-dark-mode {
+    width:100%;
+    background-color: whitesmoke;
+    text-decoration-color: #212121;
+}
+.card-dark-mode {
+    width:100%;
+    background-color: #222222;
+}
+.card-light-mode {
+    width:100%;
+    background-color: whitesmoke;
+}
+
+.couleurblanche{
+    text-decoration-color: white;
+}
+
+
+/*TITRE 1*/
+
+h1 {
+    font-size:57px;
+}
+
+h1 span{
+    color:#494949;
+
+}
+
+/*TITRE 2*/
+
+/*TITRE 3*/
+
+h3 span {
+    font-size: 150%;
+}
+
+/*TITRE 4*/
+
+h4 {
+    text-align: center;
+}
+/*TITRE 5*/
+
+h5 span{
+    font-weight: bold;
+    color : #8b8b8b;
+}
+
+/*TITRE 6*/
+
+/*LISTE PUCE*/
+
+.losange {
+    list-style-type: "♦"; /*change le style de la puce*/
+    color: black;
+}
+
+/*MODIFICATION TEXTE:*/
+
+/*-SOULIGNE*/
+
+.souligné {
+    text-decoration: underline;
+}
+
+/*-TAILLE DU TEXTE*/
+
+.textgras {
+    font-weight: 700;
+}
+
+/*-OMBRE*/
+
+.shadow {
+    text-shadow: whitesmoke 0px 0px 2px, rgb(233, 231, 231) 0px 0px 5px;
+    color: rgb(247, 244, 244);
+    background: #333333;
+}
+
+/*MODIFICATION IMAGE:*/
+
+
+/*-CENTRAGE*/
+
+.portrait {
+    text-align: center;
+}
+
+/*-TAILLE ET ARRONDI*/
+
+.portrait img {
+    width: auto;
+    border-radius: 50px; /*Arrondi l'image*/
+}
+
+/*COULEURS:*/
+
+/*-BLANC*/
+
+.colorwhite{
+    color:white;
+}
+
+/*-VIOLET*/
+
+.colorpurple {
+    color: rgb(108, 8, 202);
+}
+
+.colorpurple1 {
+    color:rgb(108, 8, 202);
+}
+
+.colorpurple1-1{
+    color: rgb(72, 0, 139);
+}
+
+.colorpurple1-2{
+    color: rgb(158, 58, 252);
+}
+
+
+/*-GRIS*/
+
+.colorgray1-2 {
+    color:#b8b8b8;
+}
+
+.colorgray1-1 {
+    color:#313131;
+}
+
+/*-NOIR*/
+
+.colorblack{
+    color:black;
+}
+
+
+/*-ROUGE*/
+
+footer h4 {
+    color : rgb(105, 27, 158);
+}
+  
+
+
+
+/* LEFT COLUMN */
+.left-column{
+    background-color: rgb(122, 124, 240);
+}
+
+/* RIGHT COLUMN */
+.right-column{
+    background-color: rgb(160, 92, 223);
+}
+
+/*ARRIERE PLAN*/
+
+.fond1 {
+    background-image: url(../image/imagetexturecubique-modified.jpg);
+    width:100%
+}
+
+
